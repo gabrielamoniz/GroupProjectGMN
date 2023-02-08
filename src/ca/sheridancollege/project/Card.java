@@ -13,24 +13,6 @@ package ca.sheridancollege.project;
  */
 public abstract class Card {
     //default modifier for child classes
-    
-    private int value;
-    private String suit;
-    
-    public int getValue(){
-        return this.value;
-    }
-    public void setValue(int value){
-        this.value = value;
-    }
-    public String getSuit(){
-        return this.suit;
-    }
-    public void setSuit(String suit){
-        this.suit = suit;
-    }
-    
-
     /**
      * Students should implement this method for their specific children classes
      *
